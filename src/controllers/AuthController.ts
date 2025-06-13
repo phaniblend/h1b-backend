@@ -18,6 +18,7 @@ const mockUsers: MockUser[] = [];
 
 export class AuthController {
   register = async (req: Request, res: Response) => {
+     console.log('==== /api/auth/register endpoint hit! ====', req.body); // <-- Add this line
     try {
       const { firstName, lastName, email, password } = req.body;
 
