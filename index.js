@@ -34,13 +34,19 @@ const limiter = (0, express_rate_limit_1.default)({
     message: 'Too many requests from this IP, please try again later.',
 });
 // Middleware
-app.use((0, helmet_1.default)({
-    contentSecurityPolicy: environment_1.isProduction ? undefined : false,
-    crossOriginEmbedderPolicy: environment_1.isProduction ? true : false,
-}));
 app.use((0, cors_1.default)({
     origin: environment_1.config.FRONTEND_URL,
     credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    preflightContinue: false,
+    optionsSuccessStatus: 204
+}));
+// Handle preflight requests
+app.options('*', (0, cors_1.default)());
+app.use((0, helmet_1.default)({
+    contentSecurityPolicy: environment_1.isProduction ? undefined : false,
+    crossOriginEmbedderPolicy: environment_1.isProduction ? true : false,
 }));
 app.use((0, compression_1.default)());
 app.use(limiter);
