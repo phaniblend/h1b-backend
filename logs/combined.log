@@ -1,0 +1,53 @@
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-10 04:26:25"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-10 04:26:25"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-10 04:26:25"}
+{"level":"info","message":"::1 - - [10/Jun/2025:09:26:47 +0000] \"GET /health HTTP/1.1\" 200 114 \"-\" \"curl/8.8.0\"","service":"h1bconnect-api","timestamp":"2025-06-10 04:26:47"}
+{"error":"SyntaxError: Expected property name or '}' in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at parse (E:\\projects\\Projects_self\\H1BConn\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at E:\\projects\\Projects_self\\H1BConn\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (E:\\projects\\Projects_self\\H1BConn\\node_modules\\raw-body\\index.js:238:16)\n    at done (E:\\projects\\Projects_self\\H1BConn\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (E:\\projects\\Projects_self\\H1BConn\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","ip":"::1","level":"error","message":"400 - Expected property name or '}' in JSON at position 1 - /api/auth/register - POST - ::1","method":"POST","service":"h1bconnect-api","timestamp":"2025-06-10 04:26:55","url":"/api/auth/register","userAgent":"curl/8.8.0"}
+{"level":"info","message":"::1 - - [10/Jun/2025:09:26:55 +0000] \"POST /api/auth/register HTTP/1.1\" 400 81 \"-\" \"curl/8.8.0\"","service":"h1bconnect-api","timestamp":"2025-06-10 04:26:55"}
+{"level":"info","message":"::1 - - [10/Jun/2025:09:27:02 +0000] \"GET /api/auth HTTP/1.1\" 404 29 \"-\" \"curl/8.8.0\"","service":"h1bconnect-api","timestamp":"2025-06-10 04:27:02"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 04:59:07"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 04:59:07"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 04:59:07"}
+{"level":"info","message":"::1 - - [11/Jun/2025:09:59:35 +0000] \"POST /api/auth/register HTTP/1.1\" 201 229 \"http://localhost:3001/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36\"","service":"h1bconnect-api","timestamp":"2025-06-11 04:59:35"}
+{"level":"info","message":"::1 - - [11/Jun/2025:09:59:35 +0000] \"POST /api/auth/login HTTP/1.1\" 200 430 \"http://localhost:3001/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36\"","service":"h1bconnect-api","timestamp":"2025-06-11 04:59:35"}
+{"level":"info","message":"::1 - - [11/Jun/2025:10:07:54 +0000] \"POST /api/auth/login HTTP/1.1\" 200 430 \"http://localhost:3001/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36\"","service":"h1bconnect-api","timestamp":"2025-06-11 05:07:54"}
+{"level":"info","message":"::1 - - [11/Jun/2025:10:11:45 +0000] \"POST /api/auth/login HTTP/1.1\" 200 430 \"http://localhost:3001/\" \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36\"","service":"h1bconnect-api","timestamp":"2025-06-11 05:11:45"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:23:04"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:23:04"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:23:04"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:09"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:09"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:09"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:15"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:15"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:15"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:15"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:15"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:15"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:21"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:21"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:21"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:27"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:27"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:27"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:28"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:28"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:28"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:38"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:38"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:24:38"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:25:20"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:25:20"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:25:20"}
+{"level":"info","message":"::1 - - [11/Jun/2025:12:25:30 +0000] \"GET /health HTTP/1.1\" 200 114 \"-\" \"curl/8.8.0\"","service":"h1bconnect-api","timestamp":"2025-06-11 07:25:30"}
+{"level":"info","message":"::1 - - [11/Jun/2025:12:25:34 +0000] \"GET /api/compliance/overview HTTP/1.1\" 200 582 \"-\" \"curl/8.8.0\"","service":"h1bconnect-api","timestamp":"2025-06-11 07:25:34"}
+{"level":"info","message":"::1 - - [11/Jun/2025:12:25:42 +0000] \"GET /api/advisors HTTP/1.1\" 200 1310 \"-\" \"curl/8.8.0\"","service":"h1bconnect-api","timestamp":"2025-06-11 07:25:42"}
+{"level":"info","message":"::1 - - [11/Jun/2025:12:25:49 +0000] \"GET /api/payments/overview HTTP/1.1\" 200 1261 \"-\" \"curl/8.8.0\"","service":"h1bconnect-api","timestamp":"2025-06-11 07:25:49"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:37:18"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:37:18"}
+{"level":"info","message":"Frontend URL: http://localhost:3000","service":"h1bconnect-api","timestamp":"2025-06-11 07:37:18"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:37:18"}
+{"level":"info","message":"H1BConnect API server running on port 5000","service":"h1bconnect-api","timestamp":"2025-06-11 07:38:18"}
+{"level":"info","message":"Environment: development","service":"h1bconnect-api","timestamp":"2025-06-11 07:38:18"}
+{"level":"info","message":"Frontend URL: http://localhost:3000","service":"h1bconnect-api","timestamp":"2025-06-11 07:38:18"}
+{"level":"info","message":"Running in MOCK MODE - no database required","service":"h1bconnect-api","timestamp":"2025-06-11 07:38:18"}
