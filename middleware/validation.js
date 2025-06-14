@@ -22,7 +22,8 @@ exports.authValidation = {
         firstName: joi_1.default.string().min(2).max(50).required(),
         lastName: joi_1.default.string().min(2).max(50).required(),
         email: joi_1.default.string().email().required(),
-        password: joi_1.default.string().min(6).required()
+        password: joi_1.default.string().min(8).required(),
+        phone: joi_1.default.string().pattern(/^[\d\s\-\(\)\+\.]+$/).min(10).max(20).optional()
     })),
     login: validateRequest(joi_1.default.object({
         email: joi_1.default.string().email().required(),
