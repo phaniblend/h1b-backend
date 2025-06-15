@@ -110,7 +110,7 @@ H1BConnect Team
                             field: 'phone',
                             code: 'PHONE_EXISTS'
                         });
-                    }
+                }
                 }
 
                 // Enhanced password validation
@@ -323,7 +323,7 @@ H1BConnect Team
                         message: 'User not found',
                         code: 'USER_NOT_FOUND'
                     });
-                }
+            }
 
                 if (user.isVerified) {
                     return res.status(400).json({ 
